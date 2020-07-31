@@ -58,3 +58,8 @@ function clr_one()
     var ret_val = a.substr(0, len - 1);
     document.getElementById("input-screen").value = ret_val;
 }
+function night_mode()
+{
+    var color = document.body;
+    color.classList.toggle("dark");  
+}
